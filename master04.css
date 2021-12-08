@@ -9,11 +9,6 @@ header{
   width: 100%;
   height: 80px;
   background-color: #FFF7E4;
-}
-header{
-  width: 100%;
-  height: 80px;
-  background-color: #FFF7E4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +58,7 @@ header nav ul li a:hover{
 .menu7{width: 30px;}
 
 .banner{
-  width: 100;
+  width: 100%;
   height: 130px;
   background-image: url('img/2_bg04.png');
   background-color: #352C33;
@@ -78,7 +73,6 @@ header nav ul li a:hover{
   justify-content: center;
   align-items: center;
   margin-top: 70px;
-  margin-left: 30px;
 }
 
 h1{
@@ -89,8 +83,8 @@ h1{
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 20px;
-  left: -340px;
+  margin-top: 20px;
+  margin-left: -800px;
  }
 
 h2{
@@ -101,19 +95,19 @@ h2{
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 10px;
-  left: -240px
+  margin-top: -10px;
+  margin-left: -600px
 }
 
 .img1{
   width: 100%;
-  height: 588px;
+  height: 569px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 40px;
-  right: 230px;
+  margin-top: 40px;
+  margin-left: -300px;
 }
 
 .text1{
@@ -125,8 +119,8 @@ h2{
   justify-content: center;
   align-items: center;
   position: relative;
-  bottom: 250px;
-  left: 380px;
+  margin-top: -250px;
+  margin-left: 580px;
 }
 
 .text2{
@@ -138,8 +132,8 @@ h2{
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 100px;
-  left: -450px;
+  margin-top: 300px;
+  margin-left: -950px;
 }
 
 .text3{
@@ -151,8 +145,8 @@ h2{
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 40px;
-  left: -70px;
+  margin-top: -70px;
+  margin-left: -150px;
 }
 
 .text4{
@@ -164,8 +158,8 @@ h2{
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 50px;
-  left: -300px;
+  margin-top: 10px;
+  margin-left: -600px;
 }
 
 .text5{
@@ -177,11 +171,11 @@ h2{
   justify-content: center;
   align-items: center;
   position: relative;
-  bottom: 10px;
-  left: 140px;
+  margin-top: -80px;
+  margin-left: 240px;
 }
 
-._1{
+.line1{
   width: 100%;
   height: 70px;
   display: flex;
@@ -201,7 +195,7 @@ h2{
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 110px;
+  margin-top: 110px;
 }
 
 .text7{
@@ -213,7 +207,7 @@ h2{
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 110px;
+  margin-top: 10px;
 }
 
 .text8{
@@ -225,18 +219,18 @@ h2{
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 150px;
-  left: 350px;
+  margin-top: 60px;
+  margin-left: 350px;
 }
 
-._2{
+.line2{
   width: 100%;
   height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-top: 250px;
+  margin-top: 150px;
   opacity: 50%;
 }
 
@@ -249,7 +243,7 @@ h2{
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 110px;
+  margin-top: 110px;
 }
 
 footer{

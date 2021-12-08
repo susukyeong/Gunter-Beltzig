@@ -2,11 +2,7 @@
 
 
 *{margin: 0;padding: 0;text-decoration: none;}
-header{
-  width: 100%;
-  height: 80px;
-  background-color: #FFF7E4;
-}
+
 header{
   width: 100%;
   height: 80px;
@@ -98,26 +94,27 @@ header nav ul li a:hover{
   height: 940px;
 }
 
-.pro_img1{
-  width: 727px;
-  height: 533px;
-  margin-right: 467px;
-  margin-bottom: 350px;
-}
-
-h1{
- width: 1550px;
- height: 459px;
- position: relative;
- bottom: 110px;
- right: 360px;
-}
-
 .prod{
   height: 100px;
   position: relative;
-  top: -800px;
-  left: 700px;
+  top: -200px;
+  left: 1300px;
+}
+
+.img1{
+  width: 100%;
+  height: 533px;
+  position: relative;
+  left: 130px;
+  bottom: 100px;
+}
+
+.img2{
+  width: 100%;
+  height: 533px;
+  position: relative;
+  top: 320px;
+  right: 600px;
 }
 
 .cont3{
